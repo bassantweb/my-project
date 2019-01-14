@@ -1,0 +1,67 @@
+.item
+{
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.item-caption
+{
+	background-color: #fff;
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	bottom: 30px;
+	margin: auto;
+	padding: 10px;
+}
+.lightbox-container
+{
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   display: none;
+}
+.show
+{
+    display: block;
+    
+}
+.lightbox-item
+{
+    margin-top: 50px;
+    height: 500px;
+    background-image: url(../images/1.jpg);
+    background-size: 100% 100%;
+
+}
+#close
+{
+    font-size: 20px;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    cursor: pointer;
+}
+
+
+#next
+{
+    z-index: 565656;
+    
+}
+#next , #prev
+{
+    display: inline !important;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    cursor: pointer;
+}
+#prev
+{
+    left: 30px;
+}
